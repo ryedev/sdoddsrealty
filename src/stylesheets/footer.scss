@@ -1,0 +1,417 @@
+.footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  .footer-bottom {
+    background-color: $rye-dark-gray;
+    padding: 10px 26px;
+    position: relative;
+
+    .logo {
+      display: none;
+      vertical-align: top;
+      margin-top: 30px;
+      
+      img {
+        height: 90px;
+      }
+    }
+
+    .mobile-nav {
+      display: none;
+    }
+
+    .links {
+      display: inline-block;
+      width: 310px;
+      text-align: right;
+
+      nav {
+        display: inline-block;
+
+        ul {
+          list-style-type: none;
+          text-align: center;
+          margin-left: 0;
+
+          li {
+            display:inline-block;
+
+            &:hover{
+
+            }
+            a {
+              color: $white;
+              font-family: "CourierPrime";
+
+              &:hover {
+                color: $white;
+                border-bottom: 2px solid $white;
+              }
+            }
+          }
+        }
+      }
+
+      .phone-icon {
+        color: $white;
+        display: inline-block;
+        position: relative;
+        top: 4px;
+      }
+
+      h5 {
+        color: $white;
+        display: inline-block;
+        margin: 0;
+      }
+    }
+
+    .social {
+      text-align: center;
+      font-size: 26px;
+      margin-bottom: 12px;
+      margin-top: 2px;
+
+      a {
+        color: $white;
+        transition: all 0.3s ease;
+        
+        &:hover {
+          color: $rye-yellow;
+        }
+      }
+    
+    }
+
+    .state-image {
+      display: inline-block;
+      background: url('/images/state.png') no-repeat;
+      background-size: contain;
+      height: 120px;
+      width: 200px;
+      margin-left: 22px;
+      float: right;
+    }
+  }
+
+  .footer-bottom-bar {
+    background-color: $black;
+    height: 30px;
+  }
+}
+
+
+
+
+//               _     _ _        __ _         _           
+//   /\/\   ___ | |__ (_) | ___  / _\ |_ _   _| | ___  ___ 
+//  /    \ / _ \| '_ \| | |/ _ \ \ \| __| | | | |/ _ \/ __|
+// / /\/\ \ (_) | |_) | | |  __/ _\ \ |_| |_| | |  __/\__ \
+// \/    \/\___/|_.__/|_|_|\___| \__/\__|\__, |_|\___||___/
+//                                       |___/              
+
+@media only screen {
+  .footer {
+
+    .footer-bottom {
+      padding: 10px 0;
+      height: 115px;
+
+      .logo {
+        display: none;
+        
+        img {
+          height: 60px;
+        }
+      }
+
+      .main-footer-nav {
+        display: none;
+      }
+
+      .mobile-nav {
+        display: block;
+        text-align: center;
+        font-family: "Courier Prime";
+      }
+
+      nav {
+        display: inline-block;
+
+        ul {
+          list-style-type: none;
+          text-align: center;
+          margin-left: 0;
+          margin-bottom: 0;
+
+          li {
+            display:inline-block;
+
+            &:hover{
+
+            }
+            a {
+              color: $white;
+              font-size: 1.5em;
+              font-family: "CourierPrime";
+
+              &:hover {
+                color: $white;
+                border-bottom: 2px solid $white;
+              }
+            }
+          }
+        }
+      }
+
+      .links {
+        display: block;
+        width: 310px;
+        text-align: center;
+        margin: 0 auto;
+
+        i {
+          font-size: 0.7em;
+        }
+
+      }
+
+      .social {
+        margin-bottom: 0;
+      }
+
+      .phone-number {
+        margin-top: 8px;
+        h5 {
+          font-size: 1.3em;
+        }
+        .phone-icon {
+          font-size: 1.3em;
+        }
+      }
+
+      .state-image {
+        display: none;
+      }
+
+    }
+  }
+}
+
+
+
+
+
+//  __                 _ _   __                              
+// / _\_ __ ___   __ _| | | / _\ ___ _ __ ___  ___ _ __  ___ 
+// \ \| '_ ` _ \ / _` | | | \ \ / __| '__/ _ \/ _ \ '_ \/ __|
+// _\ \ | | | | | (_| | | | _\ \ (__| | |  __/  __/ | | \__ \
+// \__/_| |_| |_|\__,_|_|_| \__/\___|_|  \___|\___|_| |_|___/
+                                                          
+// Min-width 401px;
+@media only screen and (min-width: 401px){
+  .footer {
+
+    .footer-bottom {
+      height: 130px;
+
+      .logo {
+        display: none;
+        
+        img {
+          height: 60px;
+        }
+      }
+
+      .main-footer-nav {
+        display: none;
+      }
+
+      .mobile-nav {
+        display: block;
+        text-align: center;
+        font-family: "Courier Prime";
+      }
+
+      .links {
+        display: inline-block;
+        width: 229px;
+        padding-left: 12px;
+        padding-top: 10px;
+        text-align: left;
+
+        nav {
+          display: inline-block;
+
+          ul {
+            list-style-type: none;
+            text-align: left;
+            margin-left: 0;
+
+            li {
+              display:inline-block;
+
+              a {
+                color: $white;
+                font-size: 1em;
+                font-family: "CourierPrime";
+
+                &:hover {
+                  color: $white;
+                  border-bottom: 2px solid $white;
+                }
+              }
+            }
+          }
+        }
+
+        .social {
+          text-align: left;
+
+          i {
+            font-size: 0.7em;
+          }
+        }
+
+        h5 {
+          font-size: 1.2em;
+        }
+      }
+
+      .state-image {
+        background: url('/images/state.png') no-repeat;
+        background-size: contain;
+        height: 96px;
+        width: 118px;
+        display: inline-block;
+      }
+
+      .footer-bottom-bar {
+        background-color: $black;
+        height: 50px;
+      }
+    }
+  }
+
+}
+
+
+//                  _ _                   __                              
+//   /\/\   ___  __| (_)_   _ _ __ ___   / _\ ___ _ __ ___  ___ _ __  ___ 
+//  /    \ / _ \/ _` | | | | | '_ ` _ \  \ \ / __| '__/ _ \/ _ \ '_ \/ __|
+// / /\/\ \  __/ (_| | | |_| | | | | | | _\ \ (__| | |  __/  __/ | | \__ \
+// \/    \/\___|\__,_|_|\__,_|_| |_| |_| \__/\___|_|  \___|\___|_| |_|___/
+                                                                       
+/* min-width 641px, medium screens */
+@media only screen and (min-width: 641px) { 
+  .footer {
+
+    .footer-bottom {
+      padding: 10px 26px 10px 10px;
+
+      .logo {
+        display: inline-block;
+        margin-top: 14px;
+
+        img {
+          height: 82px;
+        }
+      }
+
+      nav {
+        ul {
+          text-align: right;
+          margin-bottom: 0;
+        }
+      }
+
+      .links {
+        width: 250px;
+        text-align: right;
+        float: right;
+        padding-top: 10px;
+
+        .social {
+          display: inline-block;
+          text-align: right;
+          font-size: 1.5em;
+          margin-top: 8px;
+        
+          i {
+            font-size: 0.9em;
+          }
+        }
+
+        .phone-number {
+
+          i {
+            font-size: 1em;
+          }
+
+          h5 {
+            font-size: 1em;
+          }
+        }
+      }
+
+      .state-image {
+        margin-left: 16px;
+        margin-top: 6px;
+      }
+    }
+  }
+}
+
+//    __                        __                              
+//   / /  __ _ _ __ __ _  ___  / _\ ___ _ __ ___  ___ _ __  ___ 
+//  / /  / _` | '__/ _` |/ _ \ \ \ / __| '__/ _ \/ _ \ '_ \/ __|
+// / /__| (_| | | | (_| |  __/ _\ \ (__| | |  __/  __/ | | \__ \
+// \____/\__,_|_|  \__, |\___| \__/\___|_|  \___|\___|_| |_|___/
+//                 |___/                                        
+/* Min-width 1025px */
+@media only screen and (min-width: 1025px) { 
+  .footer {
+
+    .footer-bottom {
+      padding: 10px 36px 10px 26px;
+      height: 135px;
+
+      .logo {
+        margin-left: -10px;
+
+        img {
+          height: 90px;
+        }
+
+      }
+
+      .links {
+          width: 308px;
+          padding-top: 10px;
+
+        nav {
+          ul {
+            font-size: 0.9em;
+            text-align: right;
+          }
+        }
+        .social {
+          font-size: 1.2em;
+          margin-top: 6px;
+        }
+
+        .phone-number {
+          font-size: 0.9em;
+          margin-top: 10px;
+
+          i {
+            font-size: 0.9em;
+          }
+        }
+      }
+    }
+  }
+}
