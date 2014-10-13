@@ -42,9 +42,9 @@
             &:hover{
 
             }
+
             a {
               color: $white;
-              font-family: "CourierPrime";
 
               &:hover {
                 color: $white;
@@ -53,13 +53,6 @@
             }
           }
         }
-      }
-
-      .phone-icon {
-        color: $white;
-        display: inline-block;
-        position: relative;
-        top: 4px;
       }
 
       h5 {
@@ -85,16 +78,6 @@
       }
     
     }
-
-    .state-image {
-      display: inline-block;
-      background: url('/images/state.png') no-repeat;
-      background-size: contain;
-      height: 120px;
-      width: 200px;
-      margin-left: 22px;
-      float: right;
-    }
   }
 
   .footer-bottom-bar {
@@ -114,6 +97,7 @@
 //                                       |___/              
 
 @media only screen {
+
   .footer {
 
     .footer-bottom {
@@ -135,7 +119,6 @@
       .mobile-nav {
         display: block;
         text-align: center;
-        font-family: "Courier Prime";
       }
 
       nav {
@@ -156,7 +139,6 @@
             a {
               color: $white;
               font-size: 1.5em;
-              font-family: "CourierPrime";
 
               &:hover {
                 color: $white;
@@ -192,11 +174,6 @@
           font-size: 1.3em;
         }
       }
-
-      .state-image {
-        display: none;
-      }
-
     }
   }
 }
@@ -231,9 +208,7 @@
       }
 
       .mobile-nav {
-        display: block;
-        text-align: center;
-        font-family: "Courier Prime";
+
       }
 
       .links {
@@ -257,7 +232,6 @@
               a {
                 color: $white;
                 font-size: 1em;
-                font-family: "CourierPrime";
 
                 &:hover {
                   color: $white;
@@ -279,14 +253,6 @@
         h5 {
           font-size: 1.2em;
         }
-      }
-
-      .state-image {
-        background: url('/images/state.png') no-repeat;
-        background-size: contain;
-        height: 96px;
-        width: 118px;
-        display: inline-block;
       }
 
       .footer-bottom-bar {
@@ -355,11 +321,6 @@
             font-size: 1em;
           }
         }
-      }
-
-      .state-image {
-        margin-left: 16px;
-        margin-top: 6px;
       }
     }
   }

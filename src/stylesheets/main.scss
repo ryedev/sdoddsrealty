@@ -1,16 +1,33 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
 @import "normalize";
 @import "foundation";
 @import "colors";
 @import "buttons";
-@import "typography";
 @import "header";
 @import "home";
-@import "header";
 @import "footer";
-@import "contact";
-@import "projects";
+@import "typography";
 
+
+html, 
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#wrapper {
+  min-height: 100%;
+  position: relative;
+}
+
+.row{
+  padding: 0 2%;
+  position: relative;
+}
+
+p {
+  text-align: left;
+}
 
  //  _   _   _     _   _   _   _     _              
  // | | | | | |_  (_) | | (_) | |_  (_)   ___   ___ 

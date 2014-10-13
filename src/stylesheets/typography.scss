@@ -19,6 +19,7 @@ p {
   font-family: 'Jubliat';
   color: $gray;
 }
+
 /* Document level adjustments */
 html {
   font-size: 18px;
@@ -36,33 +37,5 @@ html {
 
 }
 
-/* Modules will scale with document */
 
-footer {
-  font-size: 0.75rem;
-}
-
-
-/* Type will scale with modules */
-h1 {
-  font-size: 4em;
-}
-h2 {
-  font-size: 2.5em;
-}
-h3 {
-  font-size: 2em;
-}
-
-h4 {
-  font-size: 1.5em;
-}
-
-h5 {
-  font-size: 1em;
-}
-
-h6 {
-  font-size: 0.75em;
-}
 
