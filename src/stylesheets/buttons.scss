@@ -24,14 +24,14 @@
 
 .button {
   height: 40px;
-  background: $rye-red;
+  background: $black;
   color: $white;
   font-family: "CourierPrime";
   text-transform: capitalize;
   line-height: 8px;
 
   &:hover {
-    background: $rye-dark-red;
+    background: $black;
   }
 }
 

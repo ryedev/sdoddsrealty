@@ -10,7 +10,7 @@ header {
   position:relative;
   padding: 16px 0 0;
   font-family: 'CourierPrime';
-  border-bottom: 1px solid $rye-beige;
+  border-bottom: 1px solid $black;
 
   .logo {
     display:inline-block;
@@ -42,7 +42,7 @@ header {
 
           &:hover {
             color: $white;
-            border-bottom: 2px solid $rye-medium-gray;
+            border-bottom: 2px solid $gray;
           }
         }
       }
@@ -78,7 +78,7 @@ header {
       text-align: center;
       li {
         // text-align: center;
-        background: $rye-yellow;
+        background: $black;
         color: $white;
         padding: 2px 20px 0px 0px;
         a{
@@ -124,11 +124,11 @@ header {
             text-decoration: none;
           }
           a{
-            color: $rye-medium-gray;
+            color: $gray;
             font-size: 1.2em;
             &:hover{
-              border-bottom: 5% solid $rye-medium-gray;
-              color: $rye-medium-gray;
+              border-bottom: 5% solid $gray;
+              color: $gray;
             }
           }
         }

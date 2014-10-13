@@ -1,9 +1,9 @@
 //  contact page
 
 .contact-content {
-  background: url('/images/backgrounds/paper.png');
+  background: url('/images/backgrounds/');
   background-size: 400px 400px;
-  border-bottom: 1px solid $rye-light-gray;
+  border-bottom: 1px solid $black;
   position: relative;
 
   p {
@@ -11,7 +11,7 @@
   }
 
   .contact-info {
-    background: url('/images/greenville-map.png') no-repeat;
+    background: url('/images/') no-repeat;
     background-size: cover;
     position: relative;
 
@@ -46,7 +46,7 @@
 
       a {
         display: inline-block;
-        color: $rye-dark-gray;
+        color: $gray;
 
         &:hover {
           background: none;
@@ -140,7 +140,7 @@
 
         .phone {
           display: inline-block;
-          background: url('/images/phone-icon-black.png');
+          background: url('/images/');
           background-size: cover;
           margin-top: 7px;
           margin-right: 7px;
@@ -149,7 +149,7 @@
           transition: all 0.3s ease;
 
           &:hover {
-            background: url('/images/phone-icon-orange.png');
+            background: url('/images/');
             background-size: cover;
             height: 29px;
             width: 29px;

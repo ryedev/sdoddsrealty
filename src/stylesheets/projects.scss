@@ -5,7 +5,7 @@
   .case-study {
 
     .row {
-      border-bottom: 1px solid $rye-light-gray;
+      border-bottom: 1px solid $gray;
       padding-bottom: 40px;
     }
 
@@ -16,12 +16,12 @@
 
     p {
       span {
-        color: $rye-yellow;
+        color: $black;
         transition: all 0.2s ease;
 
         &:hover {
-          color: $rye-yellow-hover;
-          border-bottom: 1px solid $rye-yellow;
+          color: $black;
+          border-bottom: 1px solid $black;
         }
       }
     }
@@ -73,8 +73,8 @@
         height: 80px;
         width: 80px;
         border-radius: 50%;
-        border: 1px solid $rye-dark-gray;
-        box-shadow: 0 0 4px 4px $rye-light-gray;
+        border: 1px solid $gray;
+        box-shadow: 0 0 4px 4px $gray;
         background-size: contain;
       }
     }

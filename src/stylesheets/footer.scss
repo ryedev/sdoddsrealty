@@ -5,7 +5,7 @@
   left: 0;
 
   .footer-bottom {
-    background-color: $rye-dark-gray;
+    background-color: $gray;
     padding: 10px 26px;
     position: relative;
 
@@ -80,7 +80,7 @@
         transition: all 0.3s ease;
         
         &:hover {
-          color: $rye-yellow;
+          color: $black;
         }
       }
     

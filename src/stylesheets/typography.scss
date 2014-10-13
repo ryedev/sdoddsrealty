@@ -1,20 +1,23 @@
 @font-face {
-  font-family: 'CourierPrime';
-  src: url('/fonts/Courier_Prime_Bold.ttf') format('truetype')
+  font-family: '';
+  src: url('') format('truetype')
 }
 
 h1, h2, h3, p {
-  font-family: 'proxima-nova-extra-condensed';
-  color: $rye-dark-gray;
+  font-family: 'nimbus-sans';
+  font-weight: 300;
+  color: $gray;
 }
 
 h4, h5, h6 {
-  font-family: 'CourierPrime';
-  color: $rye-dark-gray;
+  font-family: 'nimbus-sans';
+  font-weight: 300;
+  color: $gray;
 }
 
 p {
-  color: $rye-medium-gray;
+  font-family: 'Jubliat';
+  color: $gray;
 }
 /* Document level adjustments */
 html {
