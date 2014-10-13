@@ -1,7 +1,7 @@
 'use strict';
 
 $(document).ready(function(){
-  $('#tagline').fitText(1.7, { minFontSize: '30px', maxFontSize: '72px' });
+  $('#tagline').fitText(1, { minFontSize: '50px', maxFontSize: '82px' });
   $('#sub-tag-text').fitText(2, { minFontSize: '11px', maxFontSize: '18px' });
   $('#main-content-hl').fitText(2, { minFontSize: '16px', maxFontSize: '56px' });
   $('#main-content-sub-hl').fitText(2, { minFontSize: '10px', maxFontSize: '18px'});

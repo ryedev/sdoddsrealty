@@ -2,13 +2,8 @@
   position: relative;
   width: 100%;
   height: 440px;
-  background: url('');
+  background: url('http://www.wallpaper4me.com/images/wallpapers/mansion_and_ferrari_w1.jpeg') center center;
   background-size: cover;
-
-  .row {
-    height: 100%;
-    padding: 0 1.5%;
-  }
 
   .overlay {
     position:absolute;
@@ -17,29 +12,29 @@
     background-color: rgba(81, 20, 2, 0.57);
     z-index:1;
     padding-top: 90px;
-  }
+    
+    #headline {
+      width: 80%;
+    }
 
-  #headline {
-    width: 80%;
-  }
+    #sub-tag-text {
+      text-align: center;
+    }
+    
+    h1 {
+      color: $white;
+      text-align: center;
+    }
 
-  #sub-tag {
-    width: 50%;
-  }
-
-  h1 {
-    color: $white;
-    text-align: center;
-  }
-
-  h5 {
-    color: $black;
-    margin: 0;
+    h5 {
+      color: $black;
+      margin: 0;
+    }
   }
 }
 
 // main content section of index
-.main-content {
+.expert-section {
   background: url('');
   border-bottom: 1px solid $gray;
 
@@ -131,10 +126,10 @@
   }
 
   .hero-banner {
-    height: 150px;
+    height: 300px;
 
     .overlay{
-      padding-top: 30px; 
+      padding-top: 110px; 
       .row{
         #headline {
           width: 90%;
@@ -149,7 +144,7 @@
     }
   }
 
-  .main-content {
+  .expert-section {
     padding: 4px 10px 20px;
     h2 {
       // padding-top: 0;
@@ -263,7 +258,7 @@
 // Min-width 401px;
 @media only screen and (min-width: 400px){
   .hero-banner {
-    height: 220px;
+    
     .overlay{
       padding-top: 50px;
       .row{
