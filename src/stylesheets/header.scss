@@ -7,10 +7,9 @@
 // ascii- DOOM
 
 header {
-  position:relative;
-  padding: 16px 0 0;
-  font-family: 'CourierPrime';
-  border-bottom: 1px solid $black;
+  position: absolute;
+  z-index: 1;
+  box-shadow: inset 0px 40px 23px 1px rgba(94, 94, 94, 0.7);
 
   .logo {
     display:inline-block;
@@ -71,16 +70,15 @@ header {
 @media only screen { 
   header{
     text-align: center;
-    .logo{
-      margin-bottom: 10px;
-    }
+    height: 60px;
+
     nav{
       text-align: center;
+      
       li {
-        // text-align: center;
-        background: $black;
         color: $white;
         padding: 2px 20px 0px 0px;
+
         a{
           position: relative;
           left: 10px;
@@ -104,21 +102,18 @@ header {
 @media only screen and (min-width: 20.063em){
   header{
     text-align: center;
-    .logo{
-      img{
-      }
-    }
+    
     nav {
       margin-top: 4px;
 
       ul{
         li{
           padding:0;
-          background: $white;
           -webkit-transition: background 0.3s ease;
           -moz-transition: background 0.3s ease;
           -o-transition: background 0.3s ease;
           transition: background 0.3s ease;
+
           &:hover{
             background: none;
             text-decoration: none;
