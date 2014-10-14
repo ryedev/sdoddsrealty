@@ -33,16 +33,13 @@
   }
 }
 
-// main content section of index
 .expert-section {
   background: url('');
   border-bottom: 1px solid $gray;
 
   h2 {
     text-transform: capitalize;
-    padding-top: 30px;
     font-weight: 600;
-    margin-bottom: 26px;
   }
 
   .headshot {
@@ -52,69 +49,11 @@
   }
 }
 
-// sub content work with and case study section
-.sub-content {
-  padding: 20px 30px 16px;
-  height: 520px;
-
-  .case-studies {
-    padding: 0;
-
-    .left-img {
-      position: relative;
-    }
-
-    .content{
-      padding-left: 0;
-      vertical-align: top;
-      display: inline-block;
-     
-      h5 {
-        margin: 10px 0 0 0;
-      }
-
-      p {
-        color: $gray;
-      }
-
-      a {
-        img {
-          transition: all 0.3s ease;
-          &:hover {
-            margin-left: 6px;
-          }
-        }
-      }
-    }
-
-  }
-
-  .start-project {
-    .content{
-      vertical-align: top;
-      display: inline-block;
-      h5 {
-        margin: 10px 0 0 0;
-      }
-
-      p {
-        color: $gray;
-      }
-    }
-
-    a {
-      img {
-        transition: all 0.3s ease;
-        &:hover {
-          margin-left: 6px;
-        }
-      }
-
-    }
-
-    .white-out-phone {
-
-    }
+.listings-and-brokerage {
+  
+  h2 {
+    text-transform: capitalize;
+    font-weight: 600;
   }
 } /* end subcontent */
 
@@ -127,21 +66,20 @@
 
 @media only screen { 
 
-  h1, h2, h3, p {
-    
-  }
-
   .hero-banner {
     height: 300px;
 
     .overlay{
       padding-top: 80px; 
 
-      .row{
+      .row {
+
         #headline {
           width: 90%;
+
           a {
             margin: 0 5px;
+
             span {
               font-family: "";
             }
@@ -169,70 +107,11 @@
     }
   }
 
-  .sub-content {
+  .listings-and-brokerage {
     height: 560px;
-    .case-studies {
+
+    h2 {
       text-align: center;
-
-      .content {
-        margin-left: 0;
-        
-        h5 {
-          text-align: center;
-        }
-
-        p {
-          width: 77%;
-          text-align: center;
-          margin: 0 auto;
-          font-size: 1.3em;
-          margin-bottom: 8px;
-        }
-      
-      }
-
-      .left-img {
-        display: none;
-      }
-
-      h5 {
-        font-size: 1.7em;
-        display: inline-block;
-      }
-      a {
-
-      }
-    }
-
-    .start-project {
-      padding: 0;
-      padding-top: 10px;
-      text-align: center;
-
-      .content {
-        margin-left: 0;
-        padding-left: 0;
-  
-        p {
-          font-size: 1.3em;
-          margin: 0 auto 8px;
-          text-align: center;
-          width: 77%;
-        }
-      }
-
-      .right-img {
-        display: none;
-      }
-
-      h5 {
-        font-size: 1.6em;
-        display: inline-block;
-      }
-
-      a {
- 
-      }
     }
   }
 } 
