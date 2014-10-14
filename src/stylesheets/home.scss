@@ -35,7 +35,6 @@
 
 .expert-section {
   background: url('');
-  border-bottom: 1px solid $gray;
 
   h2 {
     text-transform: capitalize;
@@ -50,6 +49,7 @@
 }
 
 .listings-and-brokerage {
+  background: #eee;
   
   h2 {
     text-transform: capitalize;
