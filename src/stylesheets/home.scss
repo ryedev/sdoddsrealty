@@ -9,7 +9,7 @@
     position:absolute;
     width: 100%;
     height:100%;
-    background-color: rgba(81, 20, 2, 0.57);
+    background-color: rgba(73, 102, 146, 0.57);
     z-index:1;
     
     #headline {
@@ -55,7 +55,23 @@
     text-transform: capitalize;
     font-weight: 600;
   }
-} /* end subcontent */
+
+  img {
+    border-radius: 50%;
+  }
+} 
+
+.relocation {
+
+  h2 {
+    text-transform: capitalize;
+    font-weight: 600;
+  }
+
+  img {
+    border-radius: 50%;
+  }
+}
 
  //               _     _ _        __ _         _           
  //   /\/\   ___ | |__ (_) | ___  / _\ |_ _   _| | ___  ___ 
@@ -90,7 +106,7 @@
   }
 
   .expert-section {
-    padding: 4px 10px 20px;
+    padding: 20px 6px;
 
     h2 {
       text-align: center;
@@ -107,11 +123,26 @@
     }
   }
 
-  .listings-and-brokerage {
-    height: 560px;
+  .listings-and-brokerage, .relocation {
+    padding: 20px 6px;
 
     h2 {
       text-align: center;
+    }
+
+    p {
+      font-size: 1.2em;
+    }
+
+    img {
+      display: none;
+    }
+  }
+
+  .relocation {
+
+    img {
+      display: none;
     }
   }
 } 
@@ -254,72 +285,36 @@
     }
   }
 
-  .cta{
-    display: inline-block;
+  .expert-section {
+
+
+
   }
 
-  .main-content {
-    padding-bottom: 40px;
-    .gif{
+  .listings-and-brokerage {
+    padding: 60px 0;
+
+    h2 {
+      text-align: left;
+    }
+
+    img {
       display: inline-block;
-    }
-
-    .gif-mobile {
-      display: none;
-    }
-
-    p {
-      font-size: 1.4em;
+      height: 200px;
+      width: 200px;
     }
   }
 
-  .sub-content {
-    height: 370px;
-    padding: 20px 0 0 0 ;
-
-    .case-studies {
-      text-align: left;
-
-      .content {
-        text-align: left;
-
-        h5 {
-          margin-top: 0;
-          font-size: 1.3em;
-        }
-
-        a{
-          left: 0;
-        }
-
-        p {
-          text-align: left;
-          margin-left: 0;
-          width: 290px;
-        }
-      }
+  .relocation {
+    padding: 60px 0;
+    
+    img {
+      display: block;
+      height: 200px;
+      width: 200px;
+      margin: 0 auto;
     }
 
-    .start-project {
-      padding-top: 0;
-      text-align: left;
-
-      .content{
-        text-align: left;
-
-        h5 {
-          margin-top: 0;
-          font-size: 1.3em;
-        }
-
-        p {
-          text-align: left;
-          width: 80%;
-          margin: 0;
-          margin-bottom: 8px;
-        }
-      }
-    }
   }
 
 }
