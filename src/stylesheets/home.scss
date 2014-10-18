@@ -18,12 +18,14 @@
 
     #sub-tag-text {
       text-align: center;
+      font-weight: 500;
     }
     
     h1 {
       color: $white;
       text-align: center;
       text-transform: capitalize;
+      font-weight: 500;
     }
 
     h5 {
@@ -46,9 +48,11 @@
     margin: 0 auto;
     border-radius: 50%;
   }
+
+
 }
 
-.listings-and-brokerage {
+.listings-and-brokerage, .about {
   background: #eee;
   
   h2 {
@@ -123,7 +127,7 @@
     }
   }
 
-  .listings-and-brokerage, .relocation {
+  .listings-and-brokerage, .relocation, .about {
     padding: 20px 6px;
 
     h2 {
@@ -223,10 +227,12 @@
   .expert-section {
     padding: 60px 0;
 
-
+    p {
+      font-size: 1em;
+    }
   }
 
-  .listings-and-brokerage {
+  .listings-and-brokerage, .about {
     padding: 60px 0;
 
     h2 {
