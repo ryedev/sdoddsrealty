@@ -9,7 +9,7 @@
     position:absolute;
     width: 100%;
     height:100%;
-    background-color: rgba(73, 102, 146, 0.57);
+    background-color: rgba(94, 53, 83, 0.54);
     z-index:1;
     
     #headline {
@@ -181,14 +181,9 @@
     }
   }
 
-  .main-content {
-    padding-bottom: 30px;
+  .expert-section {
 
     h2 {
-      
-    }
-
-    .gif{
       
     }
 
@@ -196,70 +191,10 @@
       font-size: 1.3em;
     }
 
-    .gif-mobile {
-
-      h6 {
-       font-size: 0.9em;
-       margin-top: 14px;
-      }
-
-      img {
-        margin-bottom: 0;
-      }
-
-    }
-
   }
 
-  .sub-content {
+  .listings-and-brokerage {
 
-    .case-studies {
-      .content {
-        p{
-          font-size: 1.3em;
-        }
-
-        h5 {
-          font-size: 1.5em;
-        }
-      }
-
-      a {
-       
-      }
-
-
-      .iphone-image {
-        height: 152px;
-        width: 74px;
-        background-size: 73px 153px;
-        position: relative;
-        bottom: 27px;
-      }
-    }
-
-    .start-project {
-      .grain-image {
-
-      }
-
-      .content {
-
-        h5 {
-          font-size: 1.5em;
-        }
-
-        p {
-          font-size: 1.3em;
-          text-align: center;
-        }
-        
-      }
-
-      a {
-        bottom: 8px;
-      }
-    }
   }
 }
 
@@ -286,7 +221,7 @@
   }
 
   .expert-section {
-
+    padding: 60px 0;
 
 
   }
