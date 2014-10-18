@@ -32,10 +32,13 @@ header {
             display:inline-block;
             color: $white;
             transition: all 0.3s ease;
-            border: 1px solid transparent;
+            border: 2px solid transparent;
+            font-weight: 300;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
 
             &:hover{
-              border: 1px solid $white;
+              border: 2px solid $white;
             }
           }
         }
@@ -138,6 +141,7 @@ header {
         li{
           display: inline-block;
           padding: 0 6px;
+          font-size: 0.8em;
 
           &:hover{
 
