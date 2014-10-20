@@ -2,7 +2,7 @@
 
 $(document).ready(function(){
   $('#tagline').fitText(1, { minFontSize: '42px', maxFontSize: '82px' });
-  $('#sub-tag-text').fitText(2, { minFontSize: '16px', maxFontSize: '26px' });
+  $('#sub-tag-text').fitText(2.5, { minFontSize: '14px', maxFontSize: '26px' });
   $('#main-content-hl').fitText(2, { minFontSize: '16px', maxFontSize: '56px' });
   $('#main-content-sub-hl').fitText(2, { minFontSize: '10px', maxFontSize: '18px'});
   
