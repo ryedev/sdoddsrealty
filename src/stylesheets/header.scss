@@ -9,14 +9,6 @@
 header {
   position: absolute;
 
-  .shadow {
-    position: absolute;
-    left: 0;
-    right: 0;
-    box-shadow: inset 0px 61px 33px -14px rgba(0, 0, 0, 0.7);
-    z-index: 1;
-  }
-
   .row {
 
     nav {
@@ -29,13 +21,16 @@ header {
         a {
            
           li {
+            font-family: 'Jubilat';
             display:inline-block;
             color: $white;
-            transition: all 0.3s ease;
-            border: 2px solid transparent;
+            padding: 4px 6px;
             font-weight: 300;
+            border: 2px solid transparent;
+            transition: all 0.3s ease;
             text-transform: uppercase;
             letter-spacing: 0.1em;
+            text-shadow: 0px 0px 20px #000, 0px 0px 20px rgba(0, 0, 0, 0.4);
 
             &:hover{
               border: 2px solid $white;
@@ -68,20 +63,17 @@ header {
 @media only screen { 
   header{
 
-    .shadow {
-      height: 60px;
-    }
-
     nav{
       position: absolute;
       z-index: 2;
-      right: 13%;
+      right: 4%;
       padding-top: 8px;
       
       a {
 
         li {
           font-weight: 400;
+          font-size: 0.8em;
         }
       }
     }
@@ -95,25 +87,26 @@ header {
 
 // at least 400px up to next MQ at 641 
 @media only screen and (min-width: 401px){
-  header{
+  header {
     text-align: center;
 
-    nav {
-      margin-top: 4px;
+    .row {
 
-      ul{
+      nav {
+        margin-top: 4px;
 
-        li{
-          padding:0;
-          font-weight: 200;
-          -webkit-transition: background 0.3s ease;
-          -moz-transition: background 0.3s ease;
-          -o-transition: background 0.3s ease;
-          transition: background 0.3s ease;
+        ul{
 
-          &:hover{
-            background: none;
-            text-decoration: none;
+          a {  
+
+            li{
+              font-weight: 200;
+
+              &:hover{
+                background: none;
+                text-decoration: none;
+              }
+            }
           }
         }
       }
