@@ -109,7 +109,7 @@
     height: 280px;
 
     .overlay{
-      padding-top: 70px; 
+      padding-top: 80px; 
 
       .row {
 
@@ -272,7 +272,7 @@
     height: 400px;
 
     .overlay{
-      padding-top: 100px;
+      padding-top: 120px;
 
       .row{
         #headline{
@@ -361,10 +361,9 @@
 /* Min-width 1025px */
 @media only screen and (min-width: 1025px) { 
   .hero-banner{
-    height: 400px;
+    height: 460px;
 
     .overlay{
-      padding-top: 80px;
 
       .row{
       }
