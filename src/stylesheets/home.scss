@@ -56,6 +56,16 @@
     border-radius: 50%;
   }
 
+  .expert-cta {
+
+    h4 {
+      letter-spacing: 0.04em;
+    }
+
+    h5 {
+      line-height: 1em;
+    }
+  }
 
 }
 
@@ -152,11 +162,21 @@
 
     .expert-cta {
 
+      h4 {
+        margin: 0;
+
+        &:nth-child(2) {
+          margin-bottom: 1em;
+        }
+      }
+
       h5 {
+        margin-bottom: 0.5em;
         text-align: center;
         font-weight: 600;
 
         &:nth-child(2) {
+          margin-bottom: 1em;
           font-style: italic;
         }
       }
@@ -278,6 +298,23 @@
 
     .expert-cta {
       margin-top: 20px;
+
+      h4 {
+        letter-spacing: 0.04em;
+        margin: 0;
+
+        &:nth-child(2) {
+          margin-bottom: 20px;
+        }
+      }
+
+      h5 {
+        line-height: 1em;
+
+        &:nth-child(2) {
+          margin-bottom: 20px;
+        }
+      }
     }
   }
 
