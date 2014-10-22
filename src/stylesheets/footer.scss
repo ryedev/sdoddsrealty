@@ -2,7 +2,7 @@
   width: 100%;
 
   .footer-bottom {
-    background-color: #5e3553;
+    background-color: #fff;
     padding: 10px 26px;
     position: relative;
 
@@ -12,7 +12,7 @@
       margin-top: 30px;
       
       img {
-        height: 90px;
+        height: 40px;
       }
     }
 
@@ -41,7 +41,7 @@
             }
 
             a {
-              color: $white;
+              color: $purple;
 
               &:hover {
                 color: $white;
@@ -66,11 +66,11 @@
       margin-top: 2px;
 
       a {
-        color: $white;
+        color: $purple;
         transition: all 0.3s ease;
         
         &:hover {
-          color: $black;
+          color: $purple-hover;
         }
       }
     
@@ -105,7 +105,7 @@
         display: none;
         
         img {
-          height: 60px;
+          height: 40px;
         }
       }
 
@@ -194,10 +194,6 @@
 
       .logo {
         display: none;
-        
-        img {
-          height: 60px;
-        }
       }
 
       .main-footer-nav {
@@ -278,10 +274,6 @@
       .logo {
         display: inline-block;
         margin-top: 14px;
-
-        img {
-          height: 82px;
-        }
       }
 
       nav {
@@ -339,11 +331,6 @@
 
       .logo {
         margin-left: -10px;
-
-        img {
-          height: 90px;
-        }
-
       }
 
       .links {
