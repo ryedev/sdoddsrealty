@@ -136,6 +136,10 @@
       font-size: 1em;
     }
 
+    h4 {
+      text-align: center;
+    }
+
     h5 {
       font-size: 1.3em;
     }
@@ -144,6 +148,18 @@
       height: 100px;
       width: 100px;
       background-size: 150px;
+    }
+
+    .expert-cta {
+
+      h5 {
+        text-align: center;
+        font-weight: 600;
+
+        &:nth-child(2) {
+          font-style: italic;
+        }
+      }
     }
   }
 
@@ -259,6 +275,10 @@
       background-size: 211px;
       background-position: -8px;
     }
+
+    .expert-cta {
+      margin-top: 20px;
+    }
   }
 
   .listings-and-brokerage, .about {
@@ -311,6 +331,13 @@
 
       .row{
       }
+    }
+  }
+
+  .expert-section {
+
+    .expert-cta {
+      margin-top: 40px;
     }
   }
 

@@ -1,4 +1,5 @@
 extends ../layouts/main
+
 block content
   
   include ../includes/header
@@ -27,13 +28,19 @@ block content
           h5 Destination Homes
           p 
             | Upstate South Carolina is surrounded by incredible natural beauty, on display in lakes, mountains and open country. If you're looking for a scenic home or second home, Susan's knowledge of the Upstate's landscape will serve as your guide to finding a gorgeous destination called home. 
-    .row
+    .row.expert-cta
       .small-12.columns
-        h5 Susan would love to talk with you.<br>Call, email or request more information today.
-      .small-12.columns
-        h4 phone
-        h4 email
-        .button request info
+        h5 Susan would love to talk with you.
+        h5 Call, email or request more information today.
+      .small-12.column
+        h4 (864)555-5555
+      .small-12.column
+        h4 sdodds@cdanjoyner.com
+      .small-12.column.text-center
+        a.button.typeform-share(href="https://susandodds.typeform.com/to/ZCyFiZ" data-mode="2" target="_blank") Request Info
+          <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}id=id+'_';if(!gi.call(d,id)){qs=ce.call(d,'link');s=gt.call(d,'head')[0];s.appendChild(qs,s)}})()</script>
+
+
   .listings-and-brokerage
     .row
       .small-12.medium-5.columns
@@ -63,7 +70,7 @@ block content
 
  include ../includes/footer
 
-          
+
 
 
 

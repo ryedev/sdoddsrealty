@@ -1,0 +1,15 @@
+.button {
+  background: $light-purple;
+  border-radius: 4px;
+  font-family: 'Jubilat';
+  transition: all 0.3s ease;
+
+  &:hover {
+    background: $purple;
+  }
+
+  &.typeform-share {
+  }
+
+
+}
