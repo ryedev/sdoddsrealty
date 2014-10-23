@@ -37,7 +37,7 @@
     "through2": "~0.4.1",
     "wiredep": "^1.8.1",
     "gulp-gh-pages": "^0.4.0",
-    "gulp-shell": "^0.2.9",
+    "gulp-shell": "^0.2.9"
   },
   "engines": {
     "node": ">=0.10.0"
