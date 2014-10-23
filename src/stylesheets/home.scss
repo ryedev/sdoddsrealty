@@ -349,16 +349,22 @@
   }
 
   .services, .about {
-    padding: 60px 0;
+    padding: 40px 0;
 
     h2 {
       text-align: left;
+      margin-top: 30px;
+    }
+
+    h5 {
+      font-style: italic;
     }
 
     img {
       display: inline-block;
       height: 200px;
       width: 200px;
+      margin-left: 24px;
     }
   }
 
@@ -368,6 +374,15 @@
 
   .relocation {
     padding: 60px 0;
+
+    h2 {
+      line-height: 1em;
+      margin-bottom: 20px;
+    }
+
+    p {
+      padding-top: 40px;
+    }
     
     img {
       display: block;
