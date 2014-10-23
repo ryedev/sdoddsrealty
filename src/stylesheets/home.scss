@@ -58,6 +58,10 @@
 
   .expert-cta {
 
+    a {
+
+    }
+
     h4 {
       letter-spacing: 0.04em;
     }
@@ -66,12 +70,33 @@
       line-height: 1em;
     }
   }
-
 }
 
-.listings-and-brokerage, .about {
+.services {
   background: #eee;
-  
+
+  p {
+
+    span {
+      margin-left: 2px;
+    }
+  }
+
+  h2 {
+    text-transform: capitalize;
+    font-weight: 600;
+  }
+
+  img {
+    border-radius: 4px;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.about {
+  background: #eee;
+
   h2 {
     text-transform: capitalize;
     font-weight: 600;
@@ -83,6 +108,10 @@
     width: 100%;
   }
 } 
+
+.videos {
+  position: relative;
+}
 
 .relocation {
 
@@ -183,7 +212,7 @@
     }
   }
 
-  .listings-and-brokerage, .relocation, .about {
+  .services, .relocation, .about {
     padding: 20px 6px;
 
     h2 {
@@ -191,7 +220,8 @@
     }
 
     p {
-      font-size: 1.2em;
+      font-size: 1.1em;
+      padding: 0;
     }
 
     img {
@@ -253,7 +283,7 @@
 
   }
 
-  .listings-and-brokerage {
+  .services {
 
   }
 }
@@ -318,7 +348,7 @@
     }
   }
 
-  .listings-and-brokerage, .about {
+  .services, .about {
     padding: 60px 0;
 
     h2 {
@@ -330,6 +360,10 @@
       height: 200px;
       width: 200px;
     }
+  }
+
+  .videos {
+
   }
 
   .relocation {
