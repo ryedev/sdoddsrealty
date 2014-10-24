@@ -43,7 +43,6 @@
 }
 
 .expert-section {
-  background: url('');
 
   h2 {
     text-transform: capitalize;
@@ -94,23 +93,10 @@
   }
 }
 
-.about {
-  background: #eee;
-
-  h2 {
-    text-transform: capitalize;
-    font-weight: 600;
-  }
-
-  img {
-    border-radius: 50%;
-    height: 100%;
-    width: 100%;
-  }
-} 
-
-.videos {
-  position: relative;
+.circle-photo {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
 }
 
 .relocation {
@@ -123,7 +109,31 @@
   img {
     border-radius: 50%;
   }
+
+  .circle-photo {
+    background: url('/images/liberty-bridge.jpeg') no-repeat center center;
+    background-size: cover;
+  }
 }
+
+.about {
+  background: #eee;
+
+  h2 {
+    text-transform: capitalize;
+    font-weight: 600;
+  }
+
+  .circle-photo {
+    background: url('/images/headshot.jpeg');
+  }
+} 
+
+.videos {
+  position: relative;
+}
+
+
 
  //               _     _ _        __ _         _           
  //   /\/\   ___ | |__ (_) | ___  / _\ |_ _   _| | ___  ___ 
@@ -225,6 +235,10 @@
     }
 
     img {
+      display: none;
+    }
+
+    .circle-photo {
       display: none;
     }
   }
@@ -348,8 +362,16 @@
     }
   }
 
-  .services, .about {
+  .services {
     padding: 40px 0;
+
+    p {
+      padding-bottom: 24px;
+
+      &:nth-child(1) {
+        border-bottom: 1px dotted $gray;
+      }
+    }
 
     h2 {
       text-align: left;
@@ -366,10 +388,11 @@
       width: 200px;
       margin-left: 24px;
     }
-  }
 
-  .videos {
-
+    .circle-photo {
+      display: block;
+      margin-left: 26px;
+    }
   }
 
   .relocation {
@@ -391,8 +414,41 @@
       margin: 0 auto;
     }
 
+    .circle-photo {
+      display: block;
+      margin: 0 auto;
+    }
+
   }
 
+  .about {
+    padding: 40px 0;
+
+    p {
+      padding-bottom: 24px;
+    }
+
+    h2 {
+      text-align: left;
+      margin-top: 30px;
+    }
+
+    h5 {
+      font-style: italic;
+    }
+
+    img {
+      display: inline-block;
+      height: 200px;
+      width: 200px;
+      margin-left: 24px;
+    }
+
+    .circle-photo {
+      display: block;
+      margin-left: 26px;
+    }
+  }
 }
 
 @media only screen and (min-width: 40.063em) and (max-width: 64em) { } /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
