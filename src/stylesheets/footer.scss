@@ -7,7 +7,6 @@
     position: relative;
 
     .logo {
-      display: none;
       vertical-align: top;
       margin-top: 30px;
       
@@ -24,6 +23,10 @@
       display: inline-block;
       width: 310px;
       text-align: right;
+
+      img {
+
+      }
 
       nav {
         display: inline-block;
@@ -73,8 +76,21 @@
           color: $light-purple;
         }
       }
-    
     }
+
+    .phone-number {
+      
+      h5 {
+        color: $purple;
+        letter-spacing: 0.04em;
+        transition: all 0.3s ease;
+
+        &:hover {
+          color: $light-purple;
+        }
+      }
+    }
+    
   }
 
   .footer-bottom-bar {
@@ -99,10 +115,10 @@
 
     .footer-bottom {
       padding: 10px 0;
-      height: 115px;
+      height: 150px;
 
       .logo {
-        display: none;
+        margin-top: 0px;
         
         img {
           height: 40px;
@@ -150,10 +166,15 @@
         display: block;
         width: 310px;
         text-align: center;
-        margin: 0 auto;
+        margin: 20px auto;
 
         i {
           font-size: 0.7em;
+        }
+
+        img {
+          float: left;
+          width: 40%;
         }
 
       }
@@ -164,8 +185,9 @@
 
       .phone-number {
         margin-top: 8px;
+
         h5 {
-          font-size: 1.3em;
+          font-size: 1.1em;
         }
         .phone-icon {
           font-size: 1.3em;
@@ -190,10 +212,10 @@
   .footer {
 
     .footer-bottom {
-      height: 130px;
+      height: 150px;
 
       .logo {
-        display: none;
+        text-align: center;
       }
 
       .main-footer-nav {
@@ -206,37 +228,16 @@
 
       .links {
         display: inline-block;
-        width: 229px;
+        width: 88%;
         padding-left: 12px;
-        padding-top: 10px;
-        text-align: left;
 
-        nav {
-          display: inline-block;
-
-          ul {
-            list-style-type: none;
-            text-align: left;
-            margin-left: 0;
-
-            li {
-              display:inline-block;
-
-              a {
-                color: $white;
-                font-size: 1em;
-
-                &:hover {
-                  color: $white;
-                  border-bottom: 2px solid $white;
-                }
-              }
-            }
-          }
+        img {
+          width: 25%;
         }
 
         .social {
-          text-align: left;
+          text-align: right;
+          width: 100%;
 
           i {
             font-size: 0.7em;
@@ -246,6 +247,11 @@
         h5 {
           font-size: 1.2em;
         }
+
+        .phone-number {
+          text-align: right;
+        }
+
       }
 
       .footer-bottom-bar {
@@ -270,10 +276,12 @@
 
     .footer-bottom {
       padding: 10px 26px 10px 10px;
+      height: 140px;
 
       .logo {
         display: inline-block;
         margin-top: 14px;
+        width: 60%;
       }
 
       nav {
@@ -284,13 +292,16 @@
       }
 
       .links {
-        width: 250px;
+        width: 39%;
         text-align: right;
-        float: right;
-        padding-top: 10px;
+        margin-top: 0;
+        padding-top: 20px;
+
+        img {
+          width: 50%;
+        }
 
         .social {
-          display: inline-block;
           text-align: right;
           font-size: 1.5em;
           margin-top: 8px;
@@ -330,19 +341,18 @@
       height: 135px;
 
       .logo {
-        margin-left: -10px;
+        text-align: left;
+        width: 60%;
       }
 
       .links {
-          width: 308px;
+          width: 38%;
           padding-top: 10px;
 
-        nav {
-          ul {
-            font-size: 0.9em;
-            text-align: right;
-          }
+        img {
+          width: 40%;
         }
+
         .social {
           font-size: 1.2em;
           margin-top: 6px;
