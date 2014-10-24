@@ -282,12 +282,8 @@ gulp.task('build-step-2', ['build-step-1'], function(){
 // 
 // deploy script from: https://github.com/X1011/git-directory-deploy
 gulp.task('deploy', ['build-step-2'], function() {
-  var deployPromise = Q.defer();
-  exec('sh deploy.sh', function(){
-    deployPromise.resolve();
-  });
-
-  return deployPromise.promise;
+  return gulp.src('./dist/**/*')
+    .pipe($.ghPages({message: "deployed to gh-pages branch"}));
 });
 
 
@@ -342,12 +338,12 @@ gulp.task('watch', ['connect', 'serve'], function () {
 // work on build
 
 
-gulp.task('sendit', shell.task([
-  'gulp build-step-2',
-  'gulp bower-components', // this step should be incorporated in one of the previous build steps. works for now though.
-  'git -C dist init',
-  'git -C dist remote add origin git@github.com:githubuser/githubuser.github.io.git',
-  'git -C dist add --all',
-  'git -C dist commit -m \'build sent\'',
-  'git -C dist push --force origin master'
-]))
+// gulp.task('sendit', shell.task([
+//   'gulp build-step-2',
+//   'gulp bower-components', // this step should be incorporated in one of the previous build steps. works for now though.
+//   'git -C dist init',
+//   'git -C dist remote add origin git@github.com:githubuser/githubuser.github.io.git',
+//   'git -C dist add --all',
+//   'git -C dist commit -m \'build sent\'',
+//   'git -C dist push --force origin master'
+// ]))
